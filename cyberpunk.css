@@ -1,0 +1,145 @@
+/* Importação de fonte futurista/cyberpunk */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&display=swap');
+
+/* Configurações Gerais da Página */
+body {
+    background-color: #0d0d0d;
+    color: #00ffcc; /* Ciano Neon */
+    font-family: 'Orbitron', sans-serif;
+    margin: 0;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+/* Menu de Navegação */
+.menu {
+    background-color: #fcee0a; /* Amarelo Cyberpunk 2077 */
+    padding: 10px 0;
+    margin-bottom: 30px;
+    border-bottom: 4px solid #ff0055;
+}
+
+.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.menu li a {
+    color: #0d0d0d;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.menu li a:hover {
+    background-color: #0d0d0d;
+    color: #00ffcc;
+    box-shadow: 0 0 10px #00ffcc;
+}
+
+/* Títulos */
+.titulo {
+    color: #fcee0a;
+    text-shadow: 2px 2px 8px #ff0055;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-left: 5px solid #ff0055;
+    padding-left: 10px;
+    margin-top: 30px;
+}
+
+/* Títulos */
+.tituloRED {
+    color: #fc0a0a;
+    text-shadow: 2px 2px 8px #ff0055;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-left: 5px solid #fcee0a;
+    padding-left: 10px;
+    margin-top: 30px;
+}
+
+.titulo2077{
+    color: #00ffcc;
+    text-shadow: 2px 2px 8px #00ffcc;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-left: 5px solid #fcee0a;
+    padding-left: 10px;
+    margin-top: 30px;    
+}
+
+h1.titulo {
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+
+
+h2.titulo {
+    font-size: 1.8rem;
+}
+
+/* Parágrafos e Textos */
+p, .texto1 {
+    background-color: #1a1a1a;
+    border: 1px solid #00ffcc;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 0px; /* Estilo reto e industrial */
+    box-shadow: 0 0 5px rgba(0, 255, 204, 0.3);
+}
+
+.texto1 {
+    border-color: #fcee0a; /* Destaque em rosa choque nas classes .texto1 */
+    color: #e60b0b;
+}
+
+p, .textoRED{
+    border-color: #e60b0b;
+    color: #e60b0b; 
+}
+
+p, .texto2077{
+    border-color: #00ffcc;
+    color: #00ffcc;   
+}
+/* Imagens */
+img, .imagem {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #fcee0a;
+    box-shadow: 0 0 15px rgba(252, 238, 10, 0.4);
+    margin: 15px 0;
+    display: block;
+}
+
+img, .imagemRED{
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #ff0000;
+    box-shadow: 0 0 15px rgb(252, 10, 10);
+    margin: 15px 0;
+    display: block;   
+}
+
+img, .imagem2077{
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #00ffcc;
+    box-shadow: 0 0 15px rgba(0, 255, 204, 0.3);
+    margin: 15px 0;
+    display: block;     
+}
+
+.container-lado-a-lado {
+  display: flex;       /* Ativa o Flexbox */
+  align-items: center; /* Alinha verticalmente no centro (opcional) */
+  gap: 16px;           /* Espaço entre a imagem e o texto */
+}
